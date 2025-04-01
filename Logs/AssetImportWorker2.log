@@ -15,7 +15,7 @@ C:/Users/reycl/SchoolFiles/others/NavyHackathon/Prototype_3rd_round/Sentinels-Of
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60859
+61704
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/reycl/SchoolFiles/others/NavyHackathon/Prototype_3rd_round/Sentinels-Of
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16124]  Target information:
+Player connection [24248]  Target information:
 
-Player connection [16124]  * "[IP] 192.168.86.69 [Port] 0 [Flags] 2 [Guid] 852150413 [EditorId] 852150413 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DRPPY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24248]  * "[IP] 192.168.86.69 [Port] 0 [Flags] 2 [Guid] 2831020734 [EditorId] 2831020734 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DRPPY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16124] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16124] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24248] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24248] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005904 seconds.
-- Loaded All Assemblies, in  0.535 seconds
+Registered in 0.004798 seconds.
+- Loaded All Assemblies, in  0.390 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 1054ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  0.288 seconds
+Domain Reload Profiling: 676ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (203ms)
-		LoadAssemblies (191ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (151ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (175ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (131ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (524ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (289ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
+		SetupLoadedEditorAssemblies (250ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,217 +139,211 @@ Domain Reload Profiling: 1054ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.189 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.207 seconds
-Domain Reload Profiling: 2382ms
-	BeginReloadAssembly (237ms)
+- Finished resetting the current domain, in  0.798 seconds
+Domain Reload Profiling: 1607ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (824ms)
-		LoadAssemblies (536ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (383ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (423ms)
-			TypeCache.Refresh (301ms)
-				TypeCache.ScanAssembly (277ms)
-			BuildScriptInfoCaches (99ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1208ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (798ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1000ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6575 unused Assets / (7.2 MB). Loaded Objects now: 7219.
+Memory consumption went from 176.3 MB to 169.2 MB.
+Total: 8.631900 ms (FindLiveObjects: 0.683600 ms CreateObjectMapping: 0.509300 ms MarkObjects: 4.297400 ms  DeleteObjects: 3.140500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82031.760860 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_bottomCenter.png
+  artifactKey: Guid(ddac890133ade1644aa2fc691fb7b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_bottomCenter.png using Guid(ddac890133ade1644aa2fc691fb7b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8feebb49b68b5436f9716da46533c779') in 0.1104324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.747409 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_bottomLeftCorner.png
+  artifactKey: Guid(718b6d522e7d86f429df4f0cd5223d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_bottomLeftCorner.png using Guid(718b6d522e7d86f429df4f0cd5223d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '373b65c7e5f6fd37437f23cd2aadbe90') in 0.0082196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.175839 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_bottomRightCorner.png
+  artifactKey: Guid(f00a5ddcbe50c134283aeb3c06b106d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_bottomRightCorner.png using Guid(f00a5ddcbe50c134283aeb3c06b106d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b29b05fd742372d4a814854178cd6c1') in 0.0101403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.693898 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_leftCenter.png
+  artifactKey: Guid(dddb5b7c9328a4c439139c1ecb579490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_leftCenter.png using Guid(dddb5b7c9328a4c439139c1ecb579490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66a68eb6fa1d7938952aed2999b06850') in 0.0093708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.387122 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_rightCenter.png
+  artifactKey: Guid(1ee198a2380aece438ac14b470580fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_rightCenter.png using Guid(1ee198a2380aece438ac14b470580fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dd9d4f9b99f1460486d056486c9efca') in 0.0079903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.559676 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_topCenter.png
+  artifactKey: Guid(195d198a0028de44ba63fa56e6cd6ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_topCenter.png using Guid(195d198a0028de44ba63fa56e6cd6ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33602fb586206307990f3f8744cd620e') in 0.0082705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.216458 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_topLeftCorner.png
+  artifactKey: Guid(34dd865f6cc87e14f8a3bba19b707a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_topLeftCorner.png using Guid(34dd865f6cc87e14f8a3bba19b707a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b48e3eb88d6fd27d21798d6ff384843b') in 0.010428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.941164 seconds.
+  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_topRightCorner.png
+  artifactKey: Guid(145104a3b36862e40b44071f07c3dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_topRightCorner.png using Guid(145104a3b36862e40b44071f07c3dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '552391009e474fccb0ae8aeac0d179a2') in 0.0091794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.413 seconds
+Domain Reload Profiling: 2152ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1102ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (206ms)
-			ProcessInitializeOnLoadAttributes (596ms)
-			ProcessInitializeOnLoadMethodAttributes (177ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (709ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 4.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (7.5 MB). Loaded Objects now: 7237.
+Memory consumption went from 158.1 MB to 150.6 MB.
+Total: 17.827900 ms (FindLiveObjects: 0.993300 ms CreateObjectMapping: 0.864000 ms MarkObjects: 9.423300 ms  DeleteObjects: 6.544400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.740 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1522ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (186ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (783ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 5.33 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6574 unused Assets / (7.9 MB). Loaded Objects now: 7218.
-Memory consumption went from 172.5 MB to 164.6 MB.
-Total: 18.376600 ms (FindLiveObjects: 1.359100 ms CreateObjectMapping: 0.681600 ms MarkObjects: 7.738200 ms  DeleteObjects: 8.595100 ms)
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (7.3 MB). Loaded Objects now: 7239.
+Memory consumption went from 158.1 MB to 150.8 MB.
+Total: 9.816700 ms (FindLiveObjects: 0.619300 ms CreateObjectMapping: 0.561600 ms MarkObjects: 4.824500 ms  DeleteObjects: 3.809800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 230689.492811 seconds.
-  path: Assets/Pixel Starter Pack/Props/table_center.png
-  artifactKey: Guid(137e2452a2150004792a98d4470b1ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Props/table_center.png using Guid(137e2452a2150004792a98d4470b1ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '209460a9a62485c8e13a967bf9ef5a27') in 0.1364266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pixel Starter Pack/Pickups/coin_gold.png
-  artifactKey: Guid(32dca64d3e1034d43a2afcb29649c708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Pickups/coin_gold.png using Guid(32dca64d3e1034d43a2afcb29649c708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '321d3c0280fc006e3d0ed70beb3090ea') in 0.0167816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/grassNight_topLeft.png
-  artifactKey: Guid(6b6a819613f0e4d468ea970b8138b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/grassNight_topLeft.png using Guid(6b6a819613f0e4d468ea970b8138b5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52fa05f2de4f0b14db7231c83ec5cac0') in 0.0128571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/grass_dried_topLeft.png
-  artifactKey: Guid(b10caab72141c0f44aceed381f6dd050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/grass_dried_topLeft.png using Guid(b10caab72141c0f44aceed381f6dd050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf6e3ae83b4186105edaded1c5eeef6e') in 0.0140983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pixel Starter Pack/Pickups/redPotion.png
-  artifactKey: Guid(7a2eda5c3eafb1042a36c01a1271f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Pickups/redPotion.png using Guid(7a2eda5c3eafb1042a36c01a1271f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2fefc6d95889f8fb6981c51b50f4772') in 0.0175805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Starter Pack/Blocks/greenBlock2.png
-  artifactKey: Guid(6bddbb3c536712440b4815e6a1717e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Blocks/greenBlock2.png using Guid(6bddbb3c536712440b4815e6a1717e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a60e88c03c8e322bf52d595cde85fa1') in 0.0153231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/centerGround.png
-  artifactKey: Guid(d201c707be3f6154092ee2b8cf1a9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/centerGround.png using Guid(d201c707be3f6154092ee2b8cf1a9921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '030276650fc1d32d47fdfd833343822d') in 0.0172161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/grassNight_centerLeft.png
-  artifactKey: Guid(93d1bd23fb0b0684193ef6cb66365225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/grassNight_centerLeft.png using Guid(93d1bd23fb0b0684193ef6cb66365225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd416efaff8b0373e345256d7906c6c6c') in 0.0135109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Pixel Starter Pack/Buildings/woodHouse_inside_topRightCorner.png
-  artifactKey: Guid(d5d12da1866f206478e9216d4d36b813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Buildings/woodHouse_inside_topRightCorner.png using Guid(d5d12da1866f206478e9216d4d36b813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a33a1f85dfac15f0604a3bc3e5185b97') in 0.013606 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Starter Pack/Pickups/purplePotion.png
-  artifactKey: Guid(c6ba1db0a90b05a478ee24afda1a764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Pickups/purplePotion.png using Guid(c6ba1db0a90b05a478ee24afda1a764c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7df6c459caa21aa0a782ca382f8ae35a') in 0.0166978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Starter Pack/Buildings/woodHouse_inside_bottomCenter.png
-  artifactKey: Guid(8620be20e2940384da2cb974286703d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Buildings/woodHouse_inside_bottomCenter.png using Guid(8620be20e2940384da2cb974286703d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83dedcf8fd1c0f8e8946ac59ec556371') in 0.015851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/grass_withFlowers_bottomCenter.png
-  artifactKey: Guid(61d794a962091204188a262c864e12d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/grass_withFlowers_bottomCenter.png using Guid(61d794a962091204188a262c864e12d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0501384036e83a80ed9fa2d3fc1f5ed0') in 0.0119943 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Starter Pack/Blocks/blueBlock2.png
-  artifactKey: Guid(fb8d4db65ac5eb845844f2bfda110f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Blocks/blueBlock2.png using Guid(fb8d4db65ac5eb845844f2bfda110f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f6b1783e3b2b2018e5890d4eaf82f4') in 0.0162872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Pixel Starter Pack/Blocks/specialBlock_3.png
-  artifactKey: Guid(5c2b96338a99cbc4fab96d38ac3568b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Blocks/specialBlock_3.png using Guid(5c2b96338a99cbc4fab96d38ac3568b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0ee48afc530a976d7b9faba580cba77') in 0.0140338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/grassDriedNight_bottomRight.png
-  artifactKey: Guid(e21d3fa9059f72b46bb4b6a1b66ab038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/grassDriedNight_bottomRight.png using Guid(e21d3fa9059f72b46bb4b6a1b66ab038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2651c62bb4ebba4c688e9f6290dac03d') in 0.016065 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/grass_withFlowers_centerCenter.png
-  artifactKey: Guid(df898248cdd4b1c4488f2def9da11721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/grass_withFlowers_centerCenter.png using Guid(df898248cdd4b1c4488f2def9da11721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb0db6e5de053d8740188af5aeab5efd') in 0.0136869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Starter Pack/Pickups/potion_empty.png
-  artifactKey: Guid(90d1d68fdce66a840905aedb643d3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Pickups/potion_empty.png using Guid(90d1d68fdce66a840905aedb643d3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cdaa92ec8613af87712112869e3d8ae') in 0.0127906 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_floor.png
-  artifactKey: Guid(9f39f387b5c0e604588309e892bfcbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_floor.png using Guid(9f39f387b5c0e604588309e892bfcbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5acad1b4a6922ee60e4bcad87dc1a46f') in 0.0149385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_rightCenter.png
-  artifactKey: Guid(1ee198a2380aece438ac14b470580fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Buildings/stoneHouse_inside_rightCenter.png using Guid(1ee198a2380aece438ac14b470580fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9137293d488b59b947dff33dbee2bfc6') in 0.0146375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Starter Pack/Props/sign_blank.png
-  artifactKey: Guid(05455b37ded74eb46baf783b5f472b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Props/sign_blank.png using Guid(05455b37ded74eb46baf783b5f472b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '187908d10da3062d44060a5ae5f26b13') in 0.0168614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pixel Starter Pack/Enviornment/bottomLeftCorner.png
-  artifactKey: Guid(d9bedd834571f8e4e85d74d1e935e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Starter Pack/Enviornment/bottomLeftCorner.png using Guid(d9bedd834571f8e4e85d74d1e935e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0cc8d4dfb3f4e7d391022c301c2ddbc') in 0.0135806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
+Prepare: number of updated asset objects reloaded= 0
